@@ -1,0 +1,67 @@
+/* ----   my own project ------ */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,200&display=swap');
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+.main {
+  display: flex;
+  background-color: beige;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+}
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 4.5rem;
+  color: transparent;
+  background-image: linear-gradient(
+    to right,
+    #1af64f,
+    #7beb32,
+    #a6e01e,
+    #c5d31c,
+    #dcc72a
+  );
+  line-height: 1.2;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+.box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.box-item {
+  height: 18rem;
+  width: 18rem;
+  border: 1px solid black;
+  margin: 2rem;
+}
+.item-1 {
+  background-color: #71e971;
+}
+.item-2 {
+  background-color: #ed7db9;
+}
+.item-3 {
+  background-color: #70cece;
+}
+.item-4 {
+  background-color: rgb(223, 223, 109);
+}
+h4{
+  font-size: 2.5rem;
+  color: rgb(111, 106, 97);
+}
